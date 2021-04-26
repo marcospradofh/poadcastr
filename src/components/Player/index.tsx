@@ -1,10 +1,10 @@
 import styles from './styles.module.scss';
 
 export function Player() {
-  return(
+  return (
     <div className={styles.playerContainer}>
       <header>
-        <img src="/playing.svg" alt="Tocando agora"/>
+        <img src="/playing.svg" alt="Tocando agora" />
         <strong>Tocando agora</strong>
       </header>
 
@@ -12,7 +12,9 @@ export function Player() {
         <strong>Selecione um poadcast para ouvir</strong>
       </div>
 
-      <footer></footer>
+      <footer>
+        <div />
+      </footer>
     </div>
   );
 }

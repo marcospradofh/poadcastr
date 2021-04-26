@@ -8,9 +8,9 @@ export function Header() {
     locale: ptBR,
   });
 
-  return(
+  return (
     <header className={styles.headerContainer}>
-      <img src="/logo.svg" alt="Poadcastr Logo"/>
+      <img src="/logo.svg" alt="Poadcastr Logo" />
 
       <p>O melhor para você ouvir, sempre</p>
 
